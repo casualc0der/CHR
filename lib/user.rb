@@ -46,11 +46,10 @@ class User
   end
 
   def next_leap_year
-    d = Date.today.year
+    year = Date.today.year
     loop do
-      d += 1
-      return d if Date.new(d, 1, 1).leap?
+      year += 1
+      return year if Date.new(year, 1, 1).leap?
     end
   end
 end
-

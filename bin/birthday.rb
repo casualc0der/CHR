@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require_relative '../lib/user'
 
 tests = [
-    Date.new(1986, 1, 1),
-    Date.new(1988, Date.today.month, Date.today.day),
-    Date.new(1990, 12, 30)
+  Date.new(1986, 1, 1),
+  Date.new(1988, Date.today.month, Date.today.day),
+  Date.new(1990, 12, 30)
 ]
 puts '====== ages ======'
 tests.each do |date|
