@@ -4,3 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+User	lib/user.rb	/^class User$/;"	c
+age	lib/user.rb	/^  def age$/;"	f	class:User
+age_conversion_to_rational	lib/user.rb	/^  def age_conversion_to_rational$/;"	f	class:User
+had_birthday_this_year?	lib/user.rb	/^  def had_birthday_this_year?$/;"	f	class:User
+initialize	lib/user.rb	/^  def initialize(name, date_of_birth)$/;"	f	class:User
+leap_year?	lib/user.rb	/^  def leap_year?$/;"	f	class:User
+next_birthday	lib/user.rb	/^  def next_birthday$/;"	f	class:User
+next_leap_year	lib/user.rb	/^  def next_leap_year$/;"	f	class:User
